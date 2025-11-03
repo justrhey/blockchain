@@ -87,13 +87,15 @@
 			<version>${fabric-gateway.version}</version>
 		</dependency>
 
-		<!-- NEW: Fabric CA Client for user enrollment -->
+		<!-- NEW: Fabric CA Client for user enrollment 
 		<dependency>
 			<groupId>org.hyperledger.fabric-sdk-java</groupId>
 			<artifactId>fabric-sdk-java</artifactId>
 			<version>${fabric-sdk.version}</version>
 			<classifier>fabric-ca-client</classifier>
 		</dependency>
+
+		-->
 
 		<!-- Cryptography -->
 		<dependency>

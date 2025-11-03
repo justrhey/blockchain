@@ -1,7 +1,7 @@
 package com.schnitzel.Blockchain.service;
 
 import com.schnitzel.Blockchain.entity.MedicalRecord;
-import com.schnitzel.Blockchain.repository.MedicalRecordRepository;
+//import com.schnitzel.Blockchain.repository.MedicalRecordRepository;
 import org.hyperledger.fabric.gateway.*;
 import org.hyperledger.fabric.sdk.Enrollment;
 import org.hyperledger.fabric.sdk.User;

@@ -23,5 +23,13 @@ public class User {
     public String getFirstName(){
         return firstName;
     }
+
+    public String getEmail(){
+        return email;
+    }
+
+    public String getFullName(){
+        return firstName + "" + middleName + "" + lastName;
+    }
     
 }
