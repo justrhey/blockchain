@@ -3,6 +3,7 @@ package com.schnitzel.Blockchain.entity;
 public class User {
 
     //TO DO: User accounts for doctors etc
+    private Long id;
     private String firstName;
     private String email;
     private String password;
@@ -12,8 +13,9 @@ public class User {
     public User(){
     }
 
-    public User(String firstName, String email, String password, String middleName, String lastName){   
+    public User(Long id,String firstName, String email, String password, String middleName, String lastName){   
         this.firstName = firstName;
+        this.id = id;
         this.email = email;
         this.password = password;
         this.middleName = middleName;
@@ -26,6 +28,9 @@ public class User {
 
     public String getEmail(){
         return email;
+    }
+    public Long getId(){
+        return id;
     }
 
     public String getFullName(){
